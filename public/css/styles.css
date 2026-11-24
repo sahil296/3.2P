@@ -1,0 +1,99 @@
+nav {
+    background-color: #4E342E;
+}
+
+.navbar-size {
+    width: 95%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+nav .brand-logo {
+    position: relative;
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+
+nav .brand-logo img {
+    display: block;
+    height: 50px;
+}
+
+.main-body {
+    background-color: #6F4E37;
+    color: white;
+    min-height: calc(100vh - 64px);
+    padding-bottom: 30px;
+}
+
+.materialboxed-image {
+    margin: 0 auto;
+    height: 400px;
+}
+
+.click-me-button {
+    background-color: #C69C6D;
+    margin-top: 50px;
+    margin-bottom: 40px;
+}
+
+.click-me-button:hover {
+    background-color: #B5865A;
+}
+
+#formSubmit {
+    background-color: #8D6E63;
+}
+
+.card .card-image img {
+    background-color: #F6E7D4;
+}
+
+.card-reveal {
+    color: black;
+}
+
+.card-reveal .card-title,
+.card-reveal p {
+    color: black;
+}
+
+.modal h5 {
+    color: #4E342E;
+    margin-left: 0.75rem;
+}
+
+/* Card photos fill the image area and are cropped around the middle */
+.card.medium .card-image {
+    height: 60%;
+}
+
+.card .card-image img {
+    height: 100%;
+    object-fit: cover;
+    object-position: center 65%;
+}
+
+.materialboxed-image {
+    width: 100%;
+    max-width: 640px;
+    object-fit: cover;
+    border-radius: 6px;
+}
+
+/* Show the card details automatically on hover (no click needed) */
+.card {
+    overflow: hidden;
+}
+
+.card .card-reveal {
+    display: block;
+    transform: translateY(0);
+    transition: transform 0.35s ease;
+}
+
+.card:hover .card-reveal {
+    transform: translateY(-100%);
+}

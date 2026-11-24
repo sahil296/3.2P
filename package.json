@@ -1,0 +1,30 @@
+{
+  "name": "sit725-2026-t3-prac3",
+  "version": "1.0.0",
+  "description": "SIT725 Week 3 prac - Coffee House (Express + Materialize)",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/sahil296/sit725-2026-t3-prac3.git"
+  },
+  "keywords": [
+    "Nodejs",
+    "Express",
+    "Materialize",
+    "HTML",
+    "JS",
+    "CSS"
+  ],
+  "author": "Sahil Navin",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sahil296/sit725-2026-t3-prac3/issues"
+  },
+  "homepage": "https://github.com/sahil296/sit725-2026-t3-prac3#readme",
+  "dependencies": {
+    "express": "^4.21.2"
+  }
+}
