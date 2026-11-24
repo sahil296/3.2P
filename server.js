@@ -5,7 +5,7 @@ app.use(express.static(__dirname + '/public'))
 app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 
-// Coffee menu data (hard-coded for now - will come from a database in later weeks)
+
 const cardList = [
     {
         title: "Espresso",
